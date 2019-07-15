@@ -44,12 +44,12 @@ a {
 }
 
 .small-container {
-  min-height: 100px;
+  min-height: 250px;
 }
 
 .profile {
   background: #fff;
-  width: 40%;
+  width: 35%;
   float: left;
   color: #9099a0;
 }
@@ -221,7 +221,7 @@ li span {
 
 .experience {
   background: #3d3e42;
-  width: 60%;
+  width: 65%;
   float: left;
   position: relative;
   color: #9099a0;
@@ -254,12 +254,29 @@ h3.title {
   font-weight: 400;
 }
 .experience .company-wrapper {
-  width: 30%;
+  width: 40%;
   float: left;
   text-align: left;
   padding-right: 5%;
   margin-bottom: 60px;
 }
+
+.education .time-wrapper {
+  width: 40%;
+  float: left;
+  text-align: left;
+  padding-right: 5%;
+  margin-bottom: 60px;
+}
+
+.education .school-wrapper {
+  width: 60%;
+  float: left;
+  text-align: left;
+  padding-right: 5%;
+  margin-bottom: 60px;
+}
+
 @media (max-width: 450px) {
   .experience .company-wrapper {
     width: 100%;
@@ -267,7 +284,7 @@ h3.title {
   }
 }
 .experience .job-wrapper {
-  width: 70%;
+  width: 60%;
   float: left;
   text-align: left;
   padding-right: 5%;
@@ -298,23 +315,24 @@ h3.title {
   }
 }
 
-.section-wrapper {
-  width: 50%;
+.skill-wrapper {
+  width: 100%;
   float: left;
   text-align: left;
   color: #9099a0;
   font-weight: 300;
+  margin-top: 50px;
   margin-bottom: 20px;
 }
 @media (max-width: 450px) {
-  .section-wrapper {
+  .skill-wrapper {
     width: 100%;
   }
 }
-.section-wrapper:nth-child(3) {
+.skill-wrapper:nth-child(3) {
   padding-right: 8%;
 }
-.section-wrapper h3.section-title {
+.skill-wrapper h3.skill-title {
   color: #66cc99;
   text-align: left;
   text-transform: uppercase;
@@ -322,11 +340,11 @@ h3.title {
   margin-bottom: 20px;
   font-weight: 400;
 }
-.section-wrapper .skill-percentage {
+.skill-wrapper .skill-percentage {
   margin-bottom: 10px;
   position: relative;
 }
-.section-wrapper .skill-percentage::after {
+.skill-wrapper .skill-percentage::after {
   content: "";
   width: 100%;
   height: 6px;
@@ -334,7 +352,7 @@ h3.title {
   display: block;
   margin-top: 3px;
 }
-.section-wrapper .skill-percentage::before {
+.skill-wrapper .skill-percentage::before {
   content: "";
   height: 6px;
   background: #66cc99;
@@ -342,37 +360,37 @@ h3.title {
   margin-top: 3px;
   bottom: 0;
 }
-.section-wrapper .skill-percentage:nth-child(1)::before {
+.skill-wrapper .skill-percentage:nth-child(1)::before {
   width: 80%;
   -webkit-animation: skill_1 0.6s ease;
           animation: skill_1 0.6s ease;
 }
-.section-wrapper .skill-percentage:nth-child(2)::before {
+.skill-wrapper .skill-percentage:nth-child(2)::before {
   width: 90%;
   -webkit-animation: skill_2 0.6s ease;
           animation: skill_2 0.6s ease;
 }
-.section-wrapper .skill-percentage:nth-child(3)::before {
+.skill-wrapper .skill-percentage:nth-child(3)::before {
   width: 50%;
   -webkit-animation: skill_3 0.6s ease;
           animation: skill_3 0.6s ease;
 }
-.section-wrapper .skill-percentage:nth-child(4)::before {
+.skill-wrapper .skill-percentage:nth-child(4)::before {
   width: 60%;
   -webkit-animation: skill_4 0.6s ease;
           animation: skill_4 0.6s ease;
 }
-.section-wrapper .skill-percentage:nth-child(5)::before {
+.skill-wrapper .skill-percentage:nth-child(5)::before {
   width: 70%;
   -webkit-animation: skill_5 0.6s ease;
           animation: skill_5 0.6s ease;
 }
-.section-wrapper .skill-percentage:nth-child(6)::before {
+.skill-wrapper .skill-percentage:nth-child(6)::before {
   width: 70%;
   -webkit-animation: skill_6 0.6s ease;
           animation: skill_6 0.6s ease;
 }
-.section-wrapper .skill-percentage:nth-child(7)::before {
+.skill-wrapper .skill-percentage:nth-child(7)::before {
   width: 70%;
   -webkit-animation: skill_6 0.6s ease;
           animation: skill_6 0.6s ease;
