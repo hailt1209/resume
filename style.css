@@ -39,12 +39,20 @@ a {
   height: 100%;
 }
 
-.container {
-  min-height: 600px;
+.summary-container {
+  min-height: 320px;
 }
 
-.small-container {
-  min-height: 250px;
+.experience-container {
+  min-height: 860px;
+}
+
+.education-container {
+  min-height: 265px;
+}
+
+.certificate-container {
+	min-height: 265px;
 }
 
 .profile {
@@ -174,19 +182,23 @@ a {
   font-weight: 300;
 }
 
-.list-full-side {
-  list-style: square;
+.list {
+  list-style: none;
   float: left;
-  padding-left: 18px;
   text-align: left;
   font-weight: 300;
 }
 
-.list-full-side li{
+.list li{
     margin-bottom: 10px;
 }
 
-li span {
+.square-bullet {
+  list-style: square;
+  padding-left: 18px;
+}
+
+.square-bullet li span {
   position: relative;
   left: 10px;
 }
@@ -259,6 +271,57 @@ h3.title {
   text-align: left;
   padding-right: 5%;
   margin-bottom: 60px;
+}
+
+.cell-wrapper {
+  float: left;
+  text-align: left;
+  padding-right: 5%;
+  margin-bottom: 40px;
+}
+
+.column-25 {
+  width: 25%;
+}
+.column-3 {
+  width: 30%;
+}
+
+.column-75 {
+  width: 75%;
+}
+
+.column-8 {
+  width: 80%;
+}
+
+.experience .job-title {
+  color: #d48b2d;
+  font-size: 19px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.experience .company-name {
+  color: white;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.education .title {
+  color: #d48b2d;
+  font-size: 19px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.certificate-wrapper .title {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.education .description {
+  #color: white;
 }
 
 .education .time-wrapper {
