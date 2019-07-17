@@ -295,6 +295,20 @@ h3.title {
   width: 80%;
 }
 
+.chip {
+    display: inline-block;
+    height: 28px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(0,0,0,0.6);
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 16px;
+    background-color: #d4d4d4;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
 .experience .job-title {
   color: #d48b2d;
   font-size: 19px;
@@ -309,7 +323,7 @@ h3.title {
 }
 
 .education .title {
-  color: #d48b2d;
+  color: #f3f1f1;
   font-size: 19px;
   font-weight: 400;
   margin-bottom: 10px;
