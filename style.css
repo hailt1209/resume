@@ -59,7 +59,7 @@ a {
   background: #fff;
   width: 35%;
   float: left;
-  color: #9099a0;
+  color: #434648;
 }
 @media (max-width: 850px) {
   .profile {
@@ -71,13 +71,14 @@ a {
   width: 60%;
 }
 .profile h1 {
-  font-size: 2.5em;
+  font-size: 2.7em;
   text-align: left;
   font-family: 'Varela Round', sans-serif;
   color: #4a4e51;
   text-transform: uppercase;
   line-height: 1em;
-  padding-top: 40px;
+  padding-top: 85px;
+  padding-left: 30px;
 }
 @media (max-width: 1200px) {
   .profile h1 {
@@ -127,7 +128,7 @@ a {
 }
 @media (max-width: 1500px) {
   .profile .picture-resume img {
-    width: 80px;
+    width: 144px;
   }
 }
 @media (max-width: 1200px) {
@@ -396,7 +397,7 @@ h3.title {
   width: 100%;
   float: left;
   text-align: left;
-  color: #9099a0;
+  color: #434648;
   font-weight: 300;
   margin-top: 50px;
   margin-bottom: 20px;
@@ -535,7 +536,7 @@ h3.title {
           animation: skill_6 0.6s ease;
 }
 .skill-wrapper .additional-skill-percentage:nth-child(4)::before {
-  width: 60%;
+  width: 70%;
   -webkit-animation: skill_6 0.6s ease;
           animation: skill_6 0.6s ease;
 }
@@ -545,7 +546,7 @@ h3.title {
           animation: skill_6 0.6s ease;
 }
 .skill-wrapper .additional-skill-percentage:nth-child(6)::before {
-  width: 30%;
+  width: 40%;
   -webkit-animation: skill_6 0.6s ease;
           animation: skill_6 0.6s ease;
 }
